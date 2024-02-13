@@ -69,3 +69,47 @@ body{
 	height:400px;
 	background-size:100% 100%;
 }
+
+h1 {
+  font-family: sans-serif;
+  color: #000;
+  text-align: center;
+  font-size: 90px;
+  position: relative;
+  margin-top: 600px;
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+.material-symbols-outlined {
+  font-size: 150px;
+  position: absolute;
+  top: 40%;
+  animation: move 3s ease infinite;
+  opacity: 0.2;
+}
+
+ @keyframes move {
+   0% {
+     right: 190px;
+   }
+
+   50% {
+     right: 170px
+   }
+
+   100% {
+     right: 190px;
+   }
+ }
+
+ .text-span {
+      right: 140px;
+        position: absolute;
+          top: 46%;
+            font-size: 40px;
+ }
